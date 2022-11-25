@@ -10,11 +10,10 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    background-color: rgb(69, 87, 69);
 }
 
-.header, .top-content {
-    background-color: rgb(69, 87, 69);
+.header, .top-content, .footer {
+    background-color: #1f372a;
     color: #fff;
 }
 
@@ -23,6 +22,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 300;
 }
 
 .top-content {
@@ -37,7 +43,8 @@ body {
     width: 550px;
     flex-wrap: wrap;
     flex: 0 1 auto;
-    font-size: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .top-image {
@@ -58,14 +65,9 @@ body {
 }
 
 .logo {
-    font-size: 1.3rem;
+    font-size: 24px;
     font-weight: 700;
-}
-
-.header a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300;
+    color: #f9faf8
 }
 
 .header li {
@@ -80,6 +82,7 @@ body {
 .top-text h2 {
     font-size: 48px;
     margin: 0;
+    color: #f9faf8;
 }
 
 
@@ -89,7 +92,7 @@ body {
 }
 
 button {
-    background-color: rgb(65, 190, 65);
+    background-color: #2bc72b;
     padding: 10px 35px;
     border-radius: 6px;
     color: #fff;
@@ -107,6 +110,9 @@ button {
 
 .main-content h2 {
     padding: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f3724;
 }
 
 .cards {
@@ -123,7 +129,7 @@ button {
 }
 
 .card-image {
-    border: 3px solid rgb(65, 190, 65);
+    border: 3px solid #2bc72b;
     border-radius: 6px;
     margin-bottom: 5px;
     width: 100%;
@@ -138,12 +144,12 @@ button {
 
 
 .bottom {
-    background-color: rgb(237, 245, 237); 
+    background-color: #e5ebe8;
     display: flex;
     justify-content: center;
 }
 .quote-content {
-    background-color: rgb(237, 245, 237); 
+    background-color: #e5ebe8;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -160,12 +166,12 @@ button {
 }
 
 .signup {
-    background-color: rgb(65, 190, 65);
+    background-color: #2bc72b;
     color: #fff;
 }
 
 .border-signup-button {
-    background-color: rgb(65, 190, 65);
+    background-color: #2bc72b;
     border: 1px solid #fff;
 }
 
